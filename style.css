@@ -1,38 +1,231 @@
 body {
     font-family: 'Work Sans', sans-serif;
     font-size: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
 
-header {}
+/* 01. Banner Section */
 
-section .bg {
-    background-size: cover;
-    background-color: #fd6d0a;
-    background-image: url("/media/images/ww_banner.png");
-    background-position: center;
+.bg {
+    background: #FFF8F3;
+    background-image: url(../wednesday/media/images/ww-banner.png);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+
 }
+
 
 .banner {
-    padding-left: 40%;
-    padding-right: 10%;
-    margin-top: 80px;
-    width: 50%;
+    padding-left: 50%;
+    padding-right: 50px;
+    float: right;
+    margin-top: 120px;
+    width: 700px;
     text-align: right;
+}
 
 
+.title {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.quote {
+    font-family: 'Crimson Text', serif;
+    font-weight: 200;
+    font-size: 23px;
 
 }
 
 
 .btn-01 {
     font-weight: 600;
-    padding: 10px 20px;
+    font-size: 25px;
+    padding: 20px 40px;
     color: #ffffff;
     border-radius: 10px;
     border-style: initial;
     background-color: #fd6d0a;
     cursor: pointer;
+    border: 2px;
+}
+
+/* 02. About Section */
+
+.about-ww {
+    height: auto;
+    display: flex;
+    gap: 5px;
+    margin-top: 150px;
+    align-items: center;
+
+}
+
+.ww-img {
+    position: relative;
+    width: 40%;
+    float: left;
+}
+
+.resolution {
+    width: 60%;
+    padding-left: 10%;
+    position: relative;
+    text-align: justify;
+}
+
+.about-head {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* 03. This Year's Activity Section */
+
+.my-activity {
+    margin-top: 150px;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.a-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.activity {
+    background: #FFFFFF;
+
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+}
+
+.a-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.details {
+    color: #757575;
+}
+
+/* 04. Motivation Section */
+
+.sos-section {
+    margin-top: 150px;
+}
+
+.pic01 {
+    position: relative;
+
+}
+
+.pic02 {
+    position: absolute;
+
+}
+
+.sos {
+    position: absolute;
+    padding-left: 30px;
+
+}
+
+.sos-title {
+    font-weight: 900;
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.white-button {
+    font-weight: 600;
+    font-size: 25px;
+    padding: 20px 40px;
+    color: #F15B22;
+    border-radius: 10px;
+    border-style: initial;
+    background-color: #ffffff;
+    cursor: pointer;
+    border: 2px;
+
+}
+
+.gradient {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+/* 05. Footer Section */
+
+footer {
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    font-family: 'Mate SC', serif;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.contact {
+    width: 50%;
+    padding: 10%;
+    text-align: justify;
+}
+
+.subscribe {
+    width: 50%;
+    padding: 10%;
+    padding-left: 20%;
+
+}
+
+.icons {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+#name-field {
+    height: 30px;
+    width: 300px;
+}
+
+#email-field {
+    height: 50px;
+    width: 300px;
+}
 
 
+.last-button {
+    background-color: lightsteelblue;
+    background-image: linear-gradient(45deg, khaki, rgb(193, 218, 104));
+    border-radius: 4px;
+    align-self: center;
+    color: rgb(77, 77, 34);
+    font-weight: 600;
+    height: 40px;
+    width: 150px;
+
+    cursor: crosshair;
+    text-align: center;
 }
