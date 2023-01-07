@@ -1,13 +1,38 @@
 body {
     font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
 }
 
+header {}
+
+section .bg {
+    background-size: cover;
+    background-color: #fd6d0a;
+    background-image: url("/media/images/ww_banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner {
+    padding-left: 40%;
+    padding-right: 10%;
+    margin-top: 80px;
+    width: 50%;
+    text-align: right;
+
+
+
+}
+
+
 .btn-01 {
-    height: 60px;
-    width: 170px;
+    font-weight: 600;
+    padding: 10px 20px;
+    color: #ffffff;
     border-radius: 10px;
-    background-color: #FD6D0A;
-    font-weight: 700;
-    color: azure;
+    border-style: initial;
+    background-color: #fd6d0a;
+    cursor: pointer;
+
 
 }
